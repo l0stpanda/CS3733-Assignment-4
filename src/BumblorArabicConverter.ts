@@ -9,7 +9,6 @@ intNums.set("I", 1);
 intNums.set("O", 0);
 type Bumblor = string;
 
-// Function to convert Bumblor numeral to Arabic integer
 export function bumblor2arabic(Bumblor: string): number {
     //Negative handling
     let isNegative = false;
@@ -155,7 +154,6 @@ export function bumblor2arabic(Bumblor: string): number {
     return arabicInt;
 }
 
-// Function to convert Arabic integer to Bumblor numeral
 export function arabic2bumblor(arabic: number): string {
     let bumblorNumeral = "";
     let positiveInt = Math.abs(arabic);
